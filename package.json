@@ -1,8 +1,11 @@
 {
-  "name": "translator-cli",
+  "name": "@douyipu/translator-cli",
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
     "@types/bun": "latest"
   },

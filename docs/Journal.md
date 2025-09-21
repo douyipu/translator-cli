@@ -43,3 +43,6 @@ douyipu@translator-cli:~/translator-cli$ tree -L 1
 douyipu@translator-cli:~/translator-cli$ mkdir docs
 douyipu@translator-cli:~/translator-cli$ touch mkdir/Journal.md
 ```
+
+### Imitate gemini-cli to create directories
+

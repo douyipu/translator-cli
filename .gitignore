@@ -32,3 +32,33 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 
 # Finder (MacOS) folder config
 .DS_Store
+
+# Scratch
+scratch
+
+# Packages specific ignores
+packages/cli/dist
+packages/cli/out
+packages/cli/node_modules
+packages/cli/*.tgz
+packages/cli/coverage
+packages/cli/*.lcov
+packages/cli/logs
+packages/cli/*.log
+packages/cli/.env*
+packages/cli/.eslintcache
+packages/cli/.cache
+packages/cli/*.tsbuildinfo
+
+packages/core/dist
+packages/core/out
+packages/core/node_modules
+packages/core/*.tgz
+packages/core/coverage
+packages/core/*.lcov
+packages/core/logs
+packages/core/*.log
+packages/core/.env*
+packages/core/.eslintcache
+packages/core/.cache
+packages/core/*.tsbuildinfo
